@@ -166,11 +166,22 @@ def run3():
 
 #Run 4 - Vihaan
 def run4():
-    drive_base.settings(straight_speed=800,straight_acceleration=300,turn_rate=400, turn_acceleration=300)
+drive_base.settings(straight_speed=800,straight_acceleration=300,turn_rate=300, turn_acceleration=150)
     resetHeading(myPrimeHub) #resets Yaw to 0
-    #drive_base.straight(120, then=Stop.COAST)
-    #drive_base.turn(-20,then=Stop.COAST)
-    #leftAttachment(50, 180)
+    drive_base.straight(-300)
+    leftAttachment(40,-80)
+    drive_base.turn(-2)#experiment with this and make this smaller
+    drive_base.straight(-550)
+    rightAttachment(500,900)
+    rightAttachment(500,-900)
+    leftAttachment(80, 80)
+    drive_base.straight(200)
+    drive_base.turn(-25)
+    drive_base.straight(-310)
+    drive_base.turn(25)
+    drive_base.straight(-650)
+    drive_base.turn(50)
+    drive_base.straight(-300)
     
 
 
