@@ -97,7 +97,7 @@ run_number = 1
 myPrimeHub.display.char(str(run_number))
 last_buttons = ()
 
-#Run 1
+#Run 1 - Fernando
 def run1():
     drive_base.settings(straight_speed=600,straight_acceleration=300,turn_rate=400, turn_acceleration=300)
     resetHeading(myPrimeHub) #resets Yaw to7 0
@@ -120,7 +120,7 @@ def run1():
 
     
 
-#Run 2
+#Run 2 - Addvik
 def run2():
     drive_base.settings(straight_speed=800,straight_acceleration=300,turn_rate=400, turn_acceleration=300)
     resetHeading(myPrimeHub) #resets Yaw to 0
@@ -138,20 +138,33 @@ def run2():
     
     
 
-#Run 3
+#Run 3 - Soham
 def run3():
     drive_base.settings(straight_speed=800,straight_acceleration=300,turn_rate=400, turn_acceleration=300)
     resetHeading(myPrimeHub) #resets Yaw to 0
     #drive_base.straight(120, then=Stop.COAST)
     #drive_base.turn(-20,then=Stop.COAST)
     #leftAttachment(50, 180)
+    drive_base.straight(75.23)
+    rightAttachment(70, 60)
+    drive_base.turn(-19)
+    drive_base.straight(500)
+    drive_base.turn(61)
+    drive_base.straight(60)
+    leftAttachment(70, 150)
+    drive_base.straight(-50)
+    drive_base.turn(-50)
+    drive_base.straight(-380)
+    drive_base.turn(-20)
+    drive_base.straight(200)
+    drive_base.straight(-500)
     
     
 
 
 
 
-#Run 4
+#Run 4 - Vihaan
 def run4():
     drive_base.settings(straight_speed=800,straight_acceleration=300,turn_rate=400, turn_acceleration=300)
     resetHeading(myPrimeHub) #resets Yaw to 0
@@ -162,7 +175,7 @@ def run4():
 
 
 
-#Run 5
+#Run 5 - Umed - Delivering the krills and lift the submersible
 def run5():
     drive_base.settings(straight_speed=800,straight_acceleration=300,turn_rate=450, turn_acceleration=300)
     resetHeading(myPrimeHub) #resets Yaw to 0
@@ -188,7 +201,7 @@ def run5():
     
 
 
-#Run 6
+#Run 6 - No Run 6
 def run6():
     drive_base.settings(straight_speed=800,straight_acceleration=300,turn_rate=400, turn_acceleration=300)
     resetHeading(myPrimeHub) #resets Yaw to 0
