@@ -41,9 +41,9 @@ from RobotRun1 import RobotRun1"""
 myPrimeHub = PrimeHub()
 myStopWatch = StopWatch()
 myTotalRunTime = StopWatch()
-myRobotHeart = RobotHeart()
+#myRobotHeart = RobotHeart()
 doTulip = True
-myDudeWhoWillRunMyAssignments = DudeWhoWillRunMyAssignments
+#myDudeWhoWillRunMyAssignments = DudeWhoWillRunMyAssignments
 
 left_wheel_motor = Motor(Port.A)
 right_wheel_motor = Motor(Port.B, Direction.COUNTERCLOCKWISE)
