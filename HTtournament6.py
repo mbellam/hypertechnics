@@ -140,12 +140,78 @@ def run2():
 
 #Run 3
 def run3():
-    drive_base.settings(straight_speed=800,straight_acceleration=300,turn_rate=400, turn_acceleration=300)
-    resetHeading(myPrimeHub) #resets Yaw to 0
-    #drive_base.straight(120, then=Stop.COAST)
-    #drive_base.turn(-20,then=Stop.COAST)
-    #leftAttachment(50, 180)
+    drive_base.settings(straight_speed=600,straight_acceleration=200,turn_rate=250, turn_acceleration=87.536)
+     drive_base.turn(15)
+     #from starting home base
+     wait(200)
+     drive_base.straight(-600)
+     #using original turning to go to second turning spot
+     wait(200)
+     drive_base.turn(35)
+     #turning to start pushing lever
+     wait(200)
+     drive_base.straight(-395)
+     #pushing lever
+     wait(200)
+     drive_base.turn(-21)
+     #former one 18 degrees negative
+     #turning to push lever again
+     wait(200)
+     drive_base.straight(-165)
+     #pushing lever all the way
+     drive_base.straight(185)
+     #coming back to pick up second item
+     wait(200)
+     drive_base.turn(18)
+     #turn to get it
+     wait(200)
+     drive_base.straight(-310)
+     #get item
+     wait(200)
+     drive_base.turn(-70)
+     #turning to get four items
+     wait(200)
+     drive_base.straight(-400)
+     #going to pick up two items
+     wait(200)
+     drive_base.turn(-15)
+     #turning to pick up one item
+     wait(200)
+     drive_base.straight(-150)
+     #picks up third item
+     wait(200)
+     drive_base.turn(-55)
+     #picking up fourth item
+     wait(200)
+     drive_base.straight(-70)
+     #picks it up
+     
+     drive_base.straight(-450)
+     #going to home base
+     
+     drive_base.turn(60)
+     drive_base.straight(-100)
+     #drive_base.straight(40) 
+     #drive_base.turn(45)
+     #drive_base.straight(150)
+     #drive_base.turn(-40)
+     #drive_base.straight(500)
+     #drive_base.turn(50)
+     #drive_base.straight(470)
+     #drive_base.turn(-30)
+     #drive_base.straight(150)
+     #drive_base.straight(-15)
+     #drive_base.turn(59)
+     #drive_base.straight(50)
+     #drive_base.turn(-50)
+     #drive_base.straight(410)
+     #drive_base.turn(-110)
+     #drive_base.straight(300)
     
+
+
+
+run3()
     
 
 
