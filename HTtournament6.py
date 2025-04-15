@@ -21,13 +21,13 @@ from pybricks.tools import wait, StopWatch
 
 """ Get all the functions from our Library
     """
-from MineStemLib import resetHeading
+"""from MineStemLib import resetHeading
 from MineStemLib import myHeading
 
 from RobotHeart import RobotHeart
 from DudeWhoWillRunMyAssignments import DudeWhoWillRunMyAssignments
 from RobotAssignment import RobotAssignment
-from RobotRun1 import RobotRun1
+from RobotRun1 import RobotRun1"""
 
 """ General notes on coding for FLL robots
     1. Stable straight speed: 200 with acceleration and deceleration of 100
