@@ -138,7 +138,7 @@ def run2():
     
     
 
-#Run 3
+#Run 3: aadvik
 def run3():
     drive_base.settings(straight_speed=600,straight_acceleration=200,turn_rate=250, turn_acceleration=87.536)
     
@@ -215,7 +215,7 @@ def run3():
 run3()
 
 
-#Run 4
+#Run 4: vihaan
 def run4():
     drive_base.settings(straight_speed=800,straight_acceleration=300,turn_rate=300, turn_acceleration=150)
     resetHeading(myPrimeHub) #resets Yaw to 0
@@ -263,7 +263,7 @@ def run5():
     
 
 
-#Run 6
+#Run 6: soham
 def run6():
     drive_base.settings(straight_speed=800,straight_acceleration=300,turn_rate=400, turn_acceleration=300)
     resetHeading(myPrimeHub) #resets Yaw to 0
